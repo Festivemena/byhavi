@@ -15,12 +15,12 @@ const team = [
   },
   {
     name: "David Onwuchekwa",
-    role: "Mechatronics Enginee",
+    role: "Mechatronics Engineer",
     img: "/image/IMG_0785.JPG",
   },
   {
     name: "Success Imhoenegamhe",
-    role: "Mechatronics Enginee",
+    role: "Mechatronics Engineer",
     img: "/image/IMG_0775.JPG",
   },
 ];
