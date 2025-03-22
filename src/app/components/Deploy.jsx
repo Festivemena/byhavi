@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
-import { CircuitBoard, Trash2 } from "lucide-react";
+import { CircuitBoard, Trash2, ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Deploy = () => {
   const products = [
@@ -13,6 +14,7 @@ const Deploy = () => {
         "Transforms industries like automation and healthcare.",
       ],
       img: "/image/he.png", // Replace with actual image if available
+      link: "", // Replace with actual website
     },
     {
       heading: "Binz by Havitech",
@@ -21,6 +23,7 @@ const Deploy = () => {
         "Scalable solution for schools and public spaces.",
       ],
       img: "/image/photo_5832384950689710299_y.jpg", // Replace with actual image if available
+      link: "binz.byhavi.tech", // Replace with actual website
     },
   ];
 
@@ -65,6 +68,16 @@ const Deploy = () => {
                   alt={product.heading}
                   className="opacity-75 rounded-md flex justify-items-center hover:opacity-100 transition-opacity"
                 />
+              </div>
+              <div className="mt-4 flex justify-center">
+                <Link
+                  href={product.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 flex items-center gap-2 hover:underline"
+                >
+                  Visit Website <ExternalLink className="w-4 h-4" />
+                </Link>
               </div>
             </div>
           ))}
