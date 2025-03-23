@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="max-w-[1400px] mx-auto w-full p-4">
       <div className="flex justify-between items-center">
         {/* Logo */}
-        <div>
+        <div className="flex items-center">
           <Image
             src="/image/branding havitech main logo.png"
             alt="Havitech Logo"
@@ -24,23 +24,20 @@ const Navbar = () => {
             height={110}
             className="hidden md:flex mr-2"
           />
-        </div>
-         <div>
           <Image
             src="/image/branding havitech main logo.png"
             alt="Havitech Logo"
             width={130}
             height={90}
-            className="flex md:hidden mr-2"
+            className="md:hidden mr-2"
           />
         </div>
 
-
         {/* Navigation Links - Visible on Larger Screens */}
         <div className="hidden md:flex gap-8">
-          <Link href="#projects" className="text-gray-700 hover:text-gray-300">Projects</Link>
-          <Link href="#team" className="text-gray-700 hover:text-gray-300">Team</Link>
-          <Link href="#info" className="text-gray-700 hover:text-gray-300">Info</Link>
+          <Link href="#projects" className="text-white hover:text-gray-300">Projects</Link>
+          <Link href="#team" className="text-white hover:text-gray-300">Team</Link>
+          <Link href="#info" className="text-white hover:text-gray-300">Info</Link>
         </div>
 
         {/* Mobile Menu Button */}
