@@ -29,9 +29,9 @@ const Navbar = () => {
           <Image
             src="/image/branding havitech main logo.png"
             alt="Havitech Logo"
-            width={170}
-            height={140}
-            className="inline-block md:hidden mr-2"
+            width={130}
+            height={90}
+            className="flex md:hidden mr-2"
           />
         </div>
 
