@@ -3,7 +3,7 @@ import React from "react";
 
 const WhyUs = () => {
   return (
-    <section className="bg-gray-900 text-white">
+    <section id="info" className="bg-gray-900 text-white">
       <div className="max-w-[1200px] mx-auto px-5 md:px-0 py-[10rem]">
         {/* Heading */}
         <div className="relative font-lufga flex flex-col gap-[.6rem] mt-[10rem] mb-[5rem]">
