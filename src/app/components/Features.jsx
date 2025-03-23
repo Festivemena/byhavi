@@ -27,7 +27,7 @@ const team = [
 
 const Features = () => {
   return (
-    <section className="bg-white mb-[10rem]">
+    <section id="team" className="bg-white mb-[10rem]">
       <div className="max-w-[1200px] mx-auto px-5 md:px-0">
         {/* Heading */}
         <div className="relative font-lufga flex flex-col gap-[.6rem] mt-[10rem] mb-[5rem]">
