@@ -20,17 +20,27 @@ const Navbar = () => {
           <Image
             src="/image/branding havitech main logo.png"
             alt="Havitech Logo"
+            width={160}
+            height={110}
+            className="hidden md:flex mr-2"
+          />
+        </div>
+         <div>
+          <Image
+            src="/image/branding havitech main logo.png"
+            alt="Havitech Logo"
             width={170}
-            height={170}
-            className="inline-block mr-2"
+            height={140}
+            className="inline-block md:hidden mr-2"
           />
         </div>
 
+
         {/* Navigation Links - Visible on Larger Screens */}
         <div className="hidden md:flex gap-8">
-          <Link href="#projects" className="text-white hover:text-gray-300">Projects</Link>
-          <Link href="#team" className="text-white hover:text-gray-300">Team</Link>
-          <Link href="#info" className="text-white hover:text-gray-300">Info</Link>
+          <Link href="#projects" className="text-gray-700 hover:text-gray-300">Projects</Link>
+          <Link href="#team" className="text-gray-700 hover:text-gray-300">Team</Link>
+          <Link href="#info" className="text-gray-700 hover:text-gray-300">Info</Link>
         </div>
 
         {/* Mobile Menu Button */}
