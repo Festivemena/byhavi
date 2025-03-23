@@ -1,5 +1,7 @@
-import { AlignJustify } from "lucide-react";
+"use client";
+
 import React, { useState } from "react";
+import { AlignJustify } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,8 +26,15 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Menu Button */}
-        <div className="relative">
+        {/* Navigation Links - Visible on Larger Screens */}
+        <div className="hidden md:flex gap-8">
+          <Link href="#projects" className="text-white hover:text-gray-300">Projects</Link>
+          <Link href="#team" className="text-white hover:text-gray-300">Team</Link>
+          <Link href="#info" className="text-white hover:text-gray-300">Info</Link>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden relative">
           <button
             onClick={toggleMenu}
             className="bg-electric text-white p-4 font-lufga rounded-full hover:shadow-2xl hover:bg-electric/95 transition"
@@ -33,7 +42,7 @@ const Navbar = () => {
             <AlignJustify />
           </button>
 
-          {/* Dropdown Menu */}
+          {/* Dropdown Menu - Visible Only on Mobile */}
           {menuOpen && (
             <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg overflow-hidden">
               <ul className="text-gray-800">
