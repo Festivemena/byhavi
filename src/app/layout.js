@@ -16,7 +16,7 @@ export const metadata = {
   description:
     "Havitech Core is a cutting-edge technology company specializing in hardware engineering, IoT, AI, and Robotics development. Explore our innovative solutions for businesses and developers.",
   keywords:
-    "Havitech Core, hardware engineering, Robotics, IoT solutions, AI development, software development, embedded systems, cloud computing, blockchain, full-stack development",
+    "Havitech Core, byhavitech, by havitech, engineering, company, startup, Havitech, Core, Exhibot, Battlebot, hardware engineering, Robotics, IoT solutions, AI development, software development, embedded systems, cloud computing, blockchain, full-stack development",
   author: "Havitech Core",
   robots: "index, follow",
   openGraph: {
