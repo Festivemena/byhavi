@@ -13,7 +13,7 @@ const Deploy = () => {
         "Transforms industries like automation and healthcare.",
       ],
       img: "/image/he.png", // Replace with actual image if available
-      link: "https://exhibot.ng", // Replace with actual website
+      link: "https://linktr.ee/exhibot.ng", // Replace with actual website
     },
     {
       heading: "Binz by Havitech",
